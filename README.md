@@ -1,3 +1,10 @@
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install --force-reinstall -r requirements.txt
+
+=================================================
 Тест кейс 1
 Название: 
     Проверить что главная страница содержит необходимые элементы и они доступны
